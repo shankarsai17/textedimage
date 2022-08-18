@@ -1,5 +1,5 @@
 import pytesseract as tess
-tess.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+tess.pytesseract.tesseract_cmd = r'C:\Users\LOGISTICSSYSTEM28\AppData\Local\Tesseract-OCR\tesseract.exe'
 from PIL import Image
 
 img = Image.open('beauty.png')
